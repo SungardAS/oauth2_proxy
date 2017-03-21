@@ -1,0 +1,22 @@
+[template]
+src = "oauth2_proxy.cfg.tmpl"
+dest = "/conf/oauth2_proxy.cfg"
+keys = [
+    "HTTP_ADDR",
+    "REDIRECT_URL",
+    "UPSTREAMS",
+    "REQUEST_LOGGING",
+    "EMAIL_DOMAINS",
+    "CLIENT_ID",
+    "CLIENT_SECRET",
+    "AUTHENTICATED_EMAILS_FILE",
+    "PROVIDER",
+    "COOKIE_NAME",
+    "COOKIE_SECRET",
+    "COOKIE_DOMAIN",
+    "COOKIE_EXPIRE",
+    "COOKIE_REFRESH",
+    "COOKIE_SECURE",
+    "COOKIE_HTTPONLY"
+]
+
