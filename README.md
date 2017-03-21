@@ -5,16 +5,11 @@
 oauth2_proxy container
 
 
-
 ## How To Run container
-
 
 
 ## How to view logs
 
-```
-docker logs collectd
-```
 
 ## How to get to bash shell in running container to troubleshoot
 
@@ -26,7 +21,6 @@ docker logs collectd
 ```
 
 ## Environment Variables
-
 
 
 ## License
