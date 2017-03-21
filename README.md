@@ -4,9 +4,9 @@
 
 oauth2_proxy container
 
-* PLUGINS = "cpu,df,disk,elasticsearch,memory,swap"
 
-## How To Run container on EC2 Instance to export to Cloudwatch
+
+## How To Run container
 
 
 
@@ -18,14 +18,11 @@ docker logs collectd
 
 ## How to get to bash shell in running container to troubleshoot
 
-```
-docker exec -it collectd bash
-```
 
-## How To Build Container
+## How To Build Container from root of this repository
 
 ```
-docker build build -t sungardas/collectd-docker .
+./build.sh
 ```
 
 ## Environment Variables
